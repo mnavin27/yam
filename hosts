@@ -1,0 +1,14 @@
+[servers:children]
+production
+staging
+local
+
+[production]
+IP-Address nickname=FE1 branch=master ansible_ssh_user=root
+
+
+[staging]
+#IP-Address nickname=staging branch=develop ansible_ssh_user=root
+
+[local]
+#localhost.localdomain nickname=local branch=develop

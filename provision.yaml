@@ -1,0 +1,6 @@
+---
+- hosts: servers
+- include: requirements.yaml
+- include: php.yaml
+- include: iptables.yaml
+
